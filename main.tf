@@ -4,6 +4,7 @@ resource "aws_s3_bucket" "terraform-bucket" {
         Name = "first-bucket"
         Env = "Dev"
         Owner = "Shubham"
+        bucket = "mainBucket"
     }
   
 }
